@@ -1,0 +1,41 @@
+<header>
+    <div class="row mt-2">
+
+        <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3" id="site-logo">
+            <a href="/"><img class="img-fluid" src="{{ site.header_image }}" alt="{{ site.header_image_alt_text }}"></a>
+        </div>
+
+        <div class="col-10 offset-1 col-md-12 offset-md-0" id="navigation">
+            <nav class="mt-4 navbar navbar-expand-md">
+                <button class="navbar-toggler mx-auto bg-dark text-light py-2" id="menu-button" type="button" data-toggle="collapse"
+                    data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="px-5 py-3" id="menu-text">Menu</span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center mt-2 mt-md-0" id="navbarToggler">
+
+                    <ul class="nav flex-column flex-md-row justify-content-center">
+                        {% for item in site.navigation_header %}
+                        <li class="nav-item mt-1 mt-md-0">
+                            <a class="nav-link{% if item[1] == page.url %} active{% endif %} bg-dark text-light mx-1 border border-dark rounded-lg"
+                                href="{{ item[1] }}">{{ item[0] }}
+                                {% if item[1] == page.url %}<span class="sr-only">(current)</span>{% endif %}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+
+    {% if page.tagline_text %}
+    <div class="row mt-5" id="tagline">
+        <div class="col-10 offset-1">
+            <h3 class="text-md-center">{{ page.tagline_text }}</h3>
+        </div>
+    </div>
+    {% endif %}
+
+</header>

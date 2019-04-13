@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-GB' }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap-4.3.1.min.css">
+  <link rel="stylesheet" href="/assets/css/libre_franklin.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js" defer></script>
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:url" content="{{ site.url }}" />
+
+  <meta property="og:locale" content="en_GB" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.logo }}" />
+  <meta property="og:image:width" content="955" />
+  <meta property="og:image:height" content="500" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ site.logo }}">
+
+  <script type="application/ld+json">
+  {"name":"{{ site.title }}","description":"{{ site.description }}","@type":"WebSite","url":"{{ site.url }}","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"{{ site.url }}{{ site.logo }}"}},"headline":"{{ site.title }}","@context":"https://schema.org"}</script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    {% include header.html %}
+    <main class="row mt-5">
+      <div class="col-10 offset-1 col-lg-8 offset-lg-2">
+        {{ content }}
+      </div>
+    </main>
+    <footer class="col-8 offset-2 mt-4 mb-4">
+    </footer>
+  </div>
+</body>
+
+</html>

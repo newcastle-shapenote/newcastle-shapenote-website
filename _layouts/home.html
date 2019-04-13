@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card rounded bg-light">
+            <div class="card-body">
+                <h5 class="card-title">{{ page.singing_date_time }}</h5>
+                <p class="card-text lead">{{ page.singing_title }}</p>
+                <p class="card-text"><em>{{ page.singing_description | newline_to_br }}</em></p>
+                <div class="card-footer">
+                    <p class="card-text">{{ page.singing_venue_details | newline_to_br }}</p>
+                    <a href="{{ page.singing_google_maps_link }}" class="btn btn-dark">See a map</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-5 mt-md-0 mt-4">
+        <figure>
+            <a href="{{ page.singing_google_maps_link }}"><img src="/assets/images/{{ page.singing_google_maps_image }}"
+                    alt="Map of Newcastle, showing the Bridge Hotel" class="img-fluid"></a>
+            <figcaption class="text-center"><small><a href="{{ page.singing_google_maps_link }}">Click on the map above
+                        for Google Maps to the venue</a></small></figcaption>
+        </figure>
+        <hr>
+
+        <div class="row align-items-center">
+            <div class="col-3 col-md-2">
+                <a href="https://www.facebook.com/groups/194225650596332">
+                    <img src="/assets/images/facebook.svg" alt="Facebook logo" class="img-fluid contact-image">
+                </a>
+            </div>
+            <div class="col-9 col-md-10">
+                <a href="https://www.facebook.com/groups/194225650596332">
+                    Join our Facebook group
+                </a>
+            </div>
+        </div>
+
+        <div class="row mt-3 align-items-center">
+            <div class="col-3 col-md-2">
+                <a href="mailto:newcastlesacredharp@gmail.com">
+                    <img src="/assets/images/email.svg" alt="Email logo" class="img-fluid contact-image">
+                </a>
+            </div>
+            <div class="col-9 col-md-10">
+                <a href="mailto:newcastlesacredharp@gmail.com" class="word-wrap-break-word">
+                    Send us an email to newcastlesacredharp@gmail.com
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<hr>
+{{ content }}

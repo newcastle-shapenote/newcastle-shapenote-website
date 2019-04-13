@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="col-md-10 offset-md-1">
+        <h2 class="text-center-md">{{ page.title | newline_to_br }}</h1>
+            <p class="lead text-center-md border-bottom">{{ page.singing_tagline }}</p>
+    </div>
+</div>
+
+{% assign number_of_singings = page.singings.size %}
+{% assign singing_column_width = 12 | divided_by: number_of_singings %}
+
+<div class="row mt-3 mt-md-4">
+    {% for singing in page.singings %}
+
+    <div class="col-12 col-sm-6 col-md-{{ singing_column_width }}
+        mt-4 mt-md-0">
+
+        <div class="card rounded">
+            <div class="card-header border-bottom-0 bg-transparent">
+                <h3 class="text-center">{{ singing.singing_name | newline_to_br }}</h3>
+                <hr>
+            </div>
+            <div class="card-body pt-0">
+                <h5 class="card-title">{{ singing.singing_date_time }}</h5>
+                {% if singing.singing_description %}
+                <p class="card-text lead text-muted">{{ singing.singing_description | newline_to_br | markdownify }}</p>
+                {% endif %}
+                <div class="card-footer">
+
+                    <p class="card-text">{{ singing.singing_venue_details | newline_to_br | markdownify }}</p>
+                    {% if singing.singing_google_maps_link %}
+                    <a href="{{ singing.singing_google_maps_link }}" class="btn btn-dark">See a map</a>
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+<div class="row mt-4">
+
+    <div class="col col-md-10 offset-md-1">
+        <hr>
+        {{ content }}
+    </div>
+</div>

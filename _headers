@@ -1,0 +1,9 @@
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https://matomo.edjw.co.uk https://*.cloudfront.net; script-src 'self' https://matomo.edjw.co.uk https://*.cloudfront.net https://identity-js.netlify.com https://identity.netlify.com; style-src 'self' 'unsafe-inline' https://*.cloudfront.net https://stackpath.bootstrapcdn.com; font-src 'self' https://fonts.gstatic.com
+
+/admin/*
+    Content-Security-Policy: default-src 'self'; img-src 'self' data: https://matomo.edjw.co.uk https://*.cloudfront.net; script-src 'self' https://matomo.edjw.co.uk https://*.cloudfront.net https://unpkg.com https://identity-js.netlify.com https://identity.netlify.com 'unsafe-eval'; style-src 'self' https://*.cloudfront.net https://stackpath.bootstrapcdn.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com

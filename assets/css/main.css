@@ -1,0 +1,32 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: rgba(211, 220, 46, 0.15);
+    /* background: linear-gradient(-28deg, #fdffb9 60%, #ece9417a 80%); */
+}
+
+.word-wrap-break-word {
+    word-wrap: break-word;
+}
+
+#navigation>nav>button {
+    outline: none;
+    border: 2px solid black;
+    min-width: 242px;
+}
+
+.nav-item {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a.nav-link:hover {
+    color: #f8f9fa !important;
+}
+
+.contact-image {
+    min-width: 30px;
+    margin-left: -5px;
+}

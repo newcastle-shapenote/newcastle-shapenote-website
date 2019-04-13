@@ -1,0 +1,29 @@
+# Site settings
+url: "https://newcastle-shapenote.netlify.com"
+title: "Newcastle Shapenote"
+description: "Newcastle Shapenote sings Sacred Harp every Tuesday evening"
+permalink: pretty
+header_image: "/assets/images/newcastle_shapenote_logo.svg"
+header_image_alt_text: "Newcastle Shapenote"
+logo: "/assets/images/newcastle_shapenote_logo_social_two.png"
+
+# Header nav
+navigation_header:
+  Home: /
+  Annual All-Day: /all-day/
+  Other North-East Singings: /other-north-east-singings/
+  About Sacred Harp: /about-sacred-harp/
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+include:
+  - _headers
+
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-seo-tag
