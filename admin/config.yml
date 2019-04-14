@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
         - {label: "Singing Description", name: "singing_description", hint: "A short description of the singing", widget: "text", required: true}
         - {label: "Singing Venue Details", name: "singing_venue_details", hint: "The address of the singing", widget: "text", required: true}
         - {label: "Google Maps Link", name: "singing_google_maps_link", hint: "A link to the venue on Google Maps", widget: "string", tagname: "a", required: true}
-        - {label: "Google Maps Image", name: "singing_google_maps_image", hint: "An image of the venue shown on Google Maps", widget: "image", required: false}
+        - {label: "Google Maps Image", name: "singing_google_maps_image", hint: "An image of the venue shown on Google Maps", widget: "image", required: false, tagname: "img"}
         - {label: "Body", name: "body", hint: "More text that goes at the bottom of the page", widget: "markdown", required: false}
 
   - label: "Singing Pages" # Used in the UI, ie
@@ -83,6 +83,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: image
         hint: "An image showing the venue on Google Maps"
         required: false
+        tagname: "img"
 
     - {label: "Body", name: "body", hint: "More text that goes at the bottom of the page", widget: "markdown", required: false}
 
