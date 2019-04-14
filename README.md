@@ -3,4 +3,4 @@ title: README
 ---
 # Newcastle Shapenote
 
-[{{ site.url }}]({{ site.url }})
+This is the website for Newcastle Shapenote
