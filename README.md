@@ -1,6 +1,6 @@
 ---
 title: README
 ---
-# Newcastle Shapenote
+# Newcastle Sacred Harp
 
-This is the website for Newcastle Shapenote
+This is the website for Newcastle Sacred Harp

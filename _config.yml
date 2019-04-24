@@ -1,11 +1,11 @@
 # Site settings
-url: "https://newcastle-shapenote.netlify.com"
-title: "Newcastle Shapenote"
-description: "Newcastle Shapenote sings Sacred Harp every Tuesday evening"
+url: "https://newcastlesacredharp.co.uk"
+title: "Newcastle Sacred Harp"
+description: "Newcastle Sacred Harp sings Sacred Harp every Tuesday evening"
 permalink: pretty
-header_image: "/assets/images/newcastle_shapenote_logo.svg"
-header_image_alt_text: "Newcastle Shapenote"
-logo: "/assets/images/newcastle_shapenote_logo_social_two.png"
+header_image: "/assets/images/newcastle_sacred_harp_logo.svg"
+header_image_alt_text: "Newcastle Sacred Harp"
+logo: "/assets/images/newcastle_sacred_harp_logo_social.png"
 
 # Header nav
 navigation_header:

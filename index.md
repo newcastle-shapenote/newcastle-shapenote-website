@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Newcastle Shapenote
+title: Newcastle Sacred Harp
 tagline_text: Sing Sacred Harp in central Newcastle every Tuesday evening
 singing_title: Sacred Harp singing at the Bridge
 singing_date_time: Every Tuesday – 7.30pm to 10pm
