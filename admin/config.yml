@@ -8,7 +8,7 @@ backend:
     uploadMedia: Upload "{{path}}"
     deleteMedia: Delete "{{path}}"
 
-site_url: "https://newcastle-shapenote.netlify.com"
+site_url: "https://newcastlesacredharp.co.uk"
 logo_url: "/assets/images/newcastle_shapenote_logo.svg"
 slug:
   encoding: "ascii"
