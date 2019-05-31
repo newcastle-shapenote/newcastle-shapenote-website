@@ -15,7 +15,9 @@ singings:
     singing_google_maps_image: map_benton.png
     singing_google_maps_link: >-
       https://www.google.com/maps/place/St+Bartholomew+Church+C+Of+E/@55.0160436,-1.5709061,17z/data=!4m5!3m4!1s0x487e71a0ae5804c9:0x4dde334a50fb75b6!8m2!3d55.0160436!4d-1.5687174?hl=en
-    singing_name: Sacred Harp All-Day
+    singing_name: |
+      Sacred Harp
+      All-Day
     singing_venue_details: |
       St Bartholomew's Church Hall
       Station Rd
