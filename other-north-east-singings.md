@@ -1,7 +1,7 @@
 ---
 layout: singing_page
 title: Other North-East singings
-singing_tagline: Details of other shapenote singings around the North-East
+singing_tagline: Details of other shapenote singings around the North East
 singings:
   - singing_date_time: Second Sunday of the month – starts at 8pm
     singing_name: Gateshead house singing
