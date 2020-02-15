@@ -31,7 +31,7 @@ layout: default
                 <div class="card-footer">
 
                     <p class="card-text">{{ singing.singing_venue_details | newline_to_br | markdownify }}</p>
-                    {% if singing.singing_google_maps_link %}
+                    {% if singing.singing_google_maps_link.size > 0 %}
                     <a href="{{ singing.singing_google_maps_link }}" class="btn btn-dark">See a map</a>
                     {% endif %}
                 </div>
