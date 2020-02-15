@@ -31,11 +31,10 @@ singings:
     singing_name: Fifth Sunday singing
     singing_venue_details: >
       We usually sing on the fifth Sunday of the month in months with five
-      Sundays. The venue varies for these singings. We'll aim to have
-      information about the next singing here.
+      Sundays. The venue varies for these singings.
 
 
       Details will be on the [Facebook
-      group](https://www.facebook.com/groups/194225650596332) as well.
+      group](https://www.facebook.com/groups/194225650596332).
 ---
 
