@@ -35,12 +35,7 @@ singings:
     singing_name: |
       Shenandoah Harmony
       All-Day
-    singing_venue_details: |
-      The Holy Biscuit
-      1 Clarence Street
-      Shieldfield
-      Newcastle upon Tyne
-      NE2 1YH
+    singing_venue_details: Venue to be confirmed
 ---
 Loaner books will be provided on both days. There is also a pot luck meal which you are welcome to enjoy and contribute to!
 
