@@ -30,11 +30,14 @@ singings:
 
       Registration from 9.30am for a 10am start
     singing_google_maps_image: map_holy_biscuit.png
-    singing_google_maps_link: ''
+    singing_google_maps_link: >-
+      https://www.google.co.uk/maps/place/Heaton+Community+Centre/@54.9877778,-1.5757998,17z/data=!3m1!4b1!4m5!3m4!1s0x487e70fbb9a9e23f:0x87c995f6ca408997!8m2!3d54.9877778!4d-1.5736111?hl=en
     singing_name: |
       Shenandoah Harmony
       All-Day
-    singing_venue_details: Venue to be confirmed
+    singing_venue_details: >-
+      Heaton Community Centre, Trewhitt Road, Heaton, Newcastle Upon Tyne, NE6
+      5DY
 ---
 Loaner books will be provided on both days. There is also a pot luck meal which you are welcome to enjoy and contribute to!
 
