@@ -35,9 +35,12 @@ singings:
     singing_name: |
       Shenandoah Harmony
       All-Day
-    singing_venue_details: >-
-      Heaton Community Centre, Trewhitt Road, Heaton, Newcastle Upon Tyne, NE6
-      5DY
+    singing_venue_details: |-
+      Heaton Community Centre
+      Trewhitt Road
+      Heaton
+      Newcastle Upon Tyne
+      NE6 5DY
 ---
 Loaner books will be provided on both days. There is also a pot luck meal which you are welcome to enjoy and contribute to!
 
