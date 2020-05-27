@@ -5,11 +5,13 @@ singing_tagline: Due to coronavirus, these singings have been cancelled
 singings:
   - singing_date_time: Saturday 30 May 2019 – 10am to 4pm
     singing_description: >-
-      Come to a day of full-voiced harmony singing from [the Sacred
-      Harp](http://originalsacredharp.com)!
+      Cancelled due to coronavirus
 
 
-      Registration from 9.30am for a 10am start
+      ~~Come to a day of full-voiced harmony singing from [the Sacred Harp](http://originalsacredharp.com)!~~
+
+
+      ~~Registration from 9.30am for a 10am start~~
     singing_google_maps_image: map_benton.png
     singing_google_maps_link: https://www.google.com/maps/place/St+Bartholomew+Church+C+Of+E/@55.0160436,-1.5709061,17z/data=!4m5!3m4!1s0x487e71a0ae5804c9:0x4dde334a50fb75b6!8m2!3d55.0160436!4d-1.5687174?hl=en
     singing_name: |
@@ -23,11 +25,13 @@ singings:
       NE12 8AN
   - singing_date_time: Sunday 31 May 2020 – 10am to 3pm
     singing_description: >-
-      Come and sing more shapenote music from [the Shenandoah
-      Harmony](http://www.shenandoahharmony.com)!
+      Cancelled due to coronavirus
 
 
-      Registration from 9.30am for a 10am start
+      ~~Come and sing more shapenote music from [the Shenandoah Harmony](http://www.shenandoahharmony.com)!~~
+
+
+      ~~Registration from 9.30am for a 10am start~~
     singing_google_maps_image: map_holy_biscuit.png
     singing_google_maps_link: https://www.google.co.uk/maps/place/Heaton+Community+Centre/@54.9877778,-1.5757998,17z/data=!3m1!4b1!4m5!3m4!1s0x487e70fbb9a9e23f:0x87c995f6ca408997!8m2!3d54.9877778!4d-1.5736111?hl=en
     singing_name: |
