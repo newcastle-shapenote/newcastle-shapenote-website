@@ -1,14 +1,11 @@
 ---
 layout: singing_page
-title: Newcastle Sacred Harp & Shenandoah Harmony Double All-Day 2020
-singing_tagline: Due to coronavirus, these singings have been cancelled
+title: Newcastle Sacred Harp & Shenandoah Harmony Double All-Day 2022
+singing_tagline: Join us for two days of shapenote singing on 11 and 12 June 2022
 singings:
   - singing_date_time: Saturday 11 June 2022 – 12pm to 5pm
     singing_description: >-
-
       Come to a day of full-voiced harmony singing from [the Sacred Harp](http://originalsacredharp.com)!
-
-
     singing_google_maps_image: map_benton.png
     singing_google_maps_link: https://www.google.com/maps/place/St+Bartholomew+Church+C+Of+E/@55.0160436,-1.5709061,17z/data=!4m5!3m4!1s0x487e71a0ae5804c9:0x4dde334a50fb75b6!8m2!3d55.0160436!4d-1.5687174?hl=en
     singing_name: |
@@ -22,12 +19,7 @@ singings:
       NE12 8AN
   - singing_date_time: Sunday 12 June 2020 – 10.30am to 3.30pm
     singing_description: >-
-
-
       Come and sing more shapenote music from [the Shenandoah Harmony](http://www.shenandoahharmony.com)!
-
-
-   
     singing_google_maps_image: map_lit_phil.png
     singing_google_maps_link: https://www.google.com/maps/place/Lit+%26+Phil+Library/@54.9694099,-1.616199,17z/data=!3m1!4b1!4m5!3m4!1s0x487e70b42e55e8cf:0x8f1f42d18eb5c0c9!8m2!3d54.9694362!4d-1.6139956
     singing_name: |
