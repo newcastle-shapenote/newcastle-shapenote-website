@@ -31,7 +31,9 @@ singings:
       Newcastle Upon Tyne
       NE1 1SE
 ---
-Loaner books will be provided on both days. Please bring food for a shared lunch. There is no oven so nothing that needs heating please.
+Loaner books will be provided on both days. Please bring food for a shared lunch.
+
+On the Sunday, there is no oven so nothing that needs heating please.
 
 <!-- If you are interested in attending these singings and would like to stay with a singer overnight at any point in the weekend, [please email newcastlesacredharp@gmail.com](mailto:newcastlesacredharp@gmail.com) with which night(s) and how many people and if there are any things to take into consideration.
 
