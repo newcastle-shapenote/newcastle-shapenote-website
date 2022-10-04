@@ -17,7 +17,7 @@ singings:
       Benton
       Newcastle upon Tyne
       NE12 8AN
-  - singing_date_time: Sunday 12 June 2020 – 10.30am to 3.30pm
+  - singing_date_time: Sunday 12 June 2022 – 10.30am to 3.30pm
     singing_description: >-
       Come and sing more shapenote music from [the Shenandoah Harmony](http://www.shenandoahharmony.com)!
     singing_google_maps_image: map_lit_phil.png
