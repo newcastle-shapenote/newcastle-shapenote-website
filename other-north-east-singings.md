@@ -11,7 +11,7 @@ singings:
 
       Details usually on the [Facebook
       group](https://www.facebook.com/groups/194225650596332)
-  - singing_date_time: 2nd and 4th Saturdays – 2pm to 4pm
+<!--   - singing_date_time: 2nd and 4th Saturdays – 2pm to 4pm
     singing_name: Durham Sacred Harp
     singing_venue_details: >
       See the [Durham Sacred Harp website](https://durhamsacredharp.co.uk) for
@@ -26,7 +26,7 @@ singings:
 
       Durham
 
-      DH1 4PR
+      DH1 4PR -->
   - singing_date_time: Fifth Sundays – 2pm to 8pm
     singing_name: Fifth Sunday singing
     singing_venue_details: >
