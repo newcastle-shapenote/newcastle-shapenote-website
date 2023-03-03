@@ -7,6 +7,7 @@ singings:
     singing_description: >-
       Come to a day of full-voiced harmony singing from [the Sacred Harp](http://originalsacredharp.com)!
 
+
       Registration from 10am.
     singing_google_maps_image: unused
     singing_google_maps_link: https://goo.gl/maps/8n1T2N1HdJHbHhNR8
@@ -22,6 +23,7 @@ singings:
   - singing_date_time: Sunday 4 June 2023 – 10.30am to 3.30pm
     singing_description: >-
       Come and sing more shapenote music from [the Shenandoah Harmony](http://www.shenandoahharmony.com)!
+
 
       Registration from 10am.
     singing_google_maps_image: unused
@@ -43,5 +45,6 @@ Also, if you would like to offer host housing to someone, [please email newcastl
 
 Please contact us by email or call Phil on [07732 405 268](tel:+447732405268) for more information about any of these events.
 
-**COVID**\
+**COVID**
+
 Please don't attend if you have recently tested positive for COVID or are feeling unwell with cold or flu-like symptoms. Please take a lateral flow test 24 hours before attending if you are able to. The events will be held in large well-ventilated spaces.
