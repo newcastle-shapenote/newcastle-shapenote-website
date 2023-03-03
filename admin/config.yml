@@ -25,18 +25,83 @@ collections: # A list of collections the CMS should be able to edit
     preview_path: "/{{slug}}"
     identifier_field: name
     folder: "/"
-    filter: {field: "layout", value: "home"}
+    filter: { field: "layout", value: "home" }
     fields: # The fields each document in this collection have
-        - {label: "Layout", name: "layout", hint: "Which layout?", widget: "hidden", default: "home", required: true}
-        - {label: "Title", name: "title", hint: "The title of the page", widget: "string", tagname: "h1", required: true}
-        - {label: "Tagline", name: "tagline_text", hint: "A short description of the page", widget: "string", tagname: "h2", required: true}
-        - {label: "Singing Title", name: "singing_title", hint: "Name of singing", widget: "string", required: true}
-        - {label: "Singing Date and Time", name: "singing_date_time", hint: "Date and time of the singing", widget: "string", required: true}
-        - {label: "Singing Description", name: "singing_description", hint: "A short description of the singing", widget: "text", required: true}
-        - {label: "Singing Venue Details", name: "singing_venue_details", hint: "The address of the singing", widget: "text", required: true}
-        - {label: "Google Maps Link", name: "singing_google_maps_link", hint: "A link to the venue on Google Maps", widget: "string", tagname: "a", required: true}
-        - {label: "Google Maps Image", name: "singing_google_maps_image", hint: "An image of the venue shown on Google Maps", widget: "image", required: false, tagname: "img"}
-        - {label: "Body", name: "body", hint: "More text that goes at the bottom of the page", widget: "markdown", required: false}
+      - {
+          label: "Layout",
+          name: "layout",
+          hint: "Which layout?",
+          widget: "hidden",
+          default: "home",
+          required: true,
+        }
+      - {
+          label: "Title",
+          name: "title",
+          hint: "The title of the page",
+          widget: "string",
+          tagname: "h1",
+          required: true,
+        }
+      - {
+          label: "Tagline",
+          name: "tagline_text",
+          hint: "A short description of the page",
+          widget: "string",
+          tagname: "h2",
+          required: true,
+        }
+      - {
+          label: "Singing Title",
+          name: "singing_title",
+          hint: "Name of singing",
+          widget: "string",
+          required: true,
+        }
+      - {
+          label: "Singing Date and Time",
+          name: "singing_date_time",
+          hint: "Date and time of the singing",
+          widget: "string",
+          required: true,
+        }
+      - {
+          label: "Singing Description",
+          name: "singing_description",
+          hint: "A short description of the singing",
+          widget: "text",
+          required: true,
+        }
+      - {
+          label: "Singing Venue Details",
+          name: "singing_venue_details",
+          hint: "The address of the singing",
+          widget: "text",
+          required: true,
+        }
+      - {
+          label: "Google Maps Link",
+          name: "singing_google_maps_link",
+          hint: "A link to the venue on Google Maps",
+          widget: "string",
+          tagname: "a",
+          required: true,
+        }
+      - {
+          label: "Google Maps Image",
+          name: "singing_google_maps_image",
+          hint: "An image of the venue shown on Google Maps",
+          widget: "image",
+          required: false,
+          tagname: "img",
+        }
+      - {
+          label: "Body",
+          name: "body",
+          hint: "More text that goes at the bottom of the page",
+          widget: "markdown",
+          required: false,
+        }
 
   - label: "Singing Pages" # Used in the UI, ie
     label_singular: Singing page
@@ -46,46 +111,73 @@ collections: # A list of collections the CMS should be able to edit
     preview_path: "/{{slug}}"
     identifier_field: name
     folder: "/"
-    filter: {field: "layout", value: "singing_page"}
+    filter: { field: "layout", value: "singing_page" }
     fields:
-    - {label: "Layout", name: "layout", hint: "Which layout?", widget: "hidden", default: "singing_page", required: true}
-    - {label: "Title", name: "title", hint: "The title of the page", widget: "string", tagname: "h1", required: true}
-    - {label: "Tagline", name: "singing_tagline", hint: "A short description of the page", widget: "string", tagname: "h2", required: true}
+      - {
+          label: "Layout",
+          name: "layout",
+          hint: "Which layout?",
+          widget: "hidden",
+          default: "singing_page",
+          required: true,
+        }
+      - {
+          label: "Title",
+          name: "title",
+          hint: "The title of the page",
+          widget: "string",
+          tagname: "h1",
+          required: true,
+        }
+      - {
+          label: "Tagline",
+          name: "singing_tagline",
+          hint: "A short description of the page",
+          widget: "string",
+          tagname: "h2",
+          required: true,
+        }
 
-    - label: Singings
-      name: singings
-      widget: list
-      fields:
-      - label: Singing Title
-        name: singing_name
-        widget: string
-        hint: "The name of the singing"
-      - label: Singing Date and Time
-        name: singing_date_time
-        widget: string
-        hint: "The date and time of the singing"
-      - label: Singing Description
-        name: singing_description
-        widget: markdown
-        required: false
-        hint: "A tagline for the singing"
-      - label: Singing Venue Details
-        name: singing_venue_details
-        widget: markdown
-        hint: "Information about the singing like venue, other details"
-      - label: "Google Maps Link"
-        name: singing_google_maps_link
-        widget: string
-        hint: A link to the venue on Google Maps
-        required: false
-      - label: Google Maps Image
-        name: singing_google_maps_image
-        widget: image
-        hint: "An image showing the venue on Google Maps"
-        required: false
-        tagname: "img"
+      - label: Singings
+        name: singings
+        widget: list
+        fields:
+          - label: Singing Title
+            name: singing_name
+            widget: string
+            hint: "The name of the singing"
+          - label: Singing Date and Time
+            name: singing_date_time
+            widget: string
+            hint: "The date and time of the singing"
+          - label: Singing Description
+            name: singing_description
+            widget: markdown
+            required: false
+            hint: "A tagline for the singing"
+          - label: Singing Venue Details
+            name: singing_venue_details
+            widget: markdown
+            hint: "Information about the singing like venue, other details"
+          - label: "Google Maps Link"
+            name: singing_google_maps_link
+            widget: string
+            hint: A link to the venue on Google Maps
+            required: false
+        # - label: Google Maps Image
+        #   name: singing_google_maps_image
+        #   widget: image
+        #   hint: "An image showing the venue on Google Maps"
+        #   required: false
+        #   tagname: "img"
 
-    - {label: "Body", name: "body", hint: "More text that goes at the bottom of the page", widget: "markdown", required: false}
+      - {
+          label: "Body",
+          name: "body",
+          hint: "More text that goes at the bottom of the page",
+          widget: "markdown",
+          required: false,
+        }
 
   - label: "Other pages" # Used in the UI, ie
     label_singular: "Other page"
@@ -95,8 +187,28 @@ collections: # A list of collections the CMS should be able to edit
     preview_path: "/{{slug}}"
     identifier_field: title
     folder: "/"
-    filter: {field: "layout", value: "page"}
+    filter: { field: "layout", value: "page" }
     fields: # The fields each document in this collection have
-        - {label: "Layout", name: "layout", hint: "Which layout?", widget: "hidden", default: "home", required: true}
-        - {label: "Title", name: "title", hint: "The title of the page", widget: "string", tagname: "h1", required: true}
-        - {label: "Body", name: "body", hint: "The text of the page", widget: "markdown", required: false}
+      - {
+          label: "Layout",
+          name: "layout",
+          hint: "Which layout?",
+          widget: "hidden",
+          default: "home",
+          required: true,
+        }
+      - {
+          label: "Title",
+          name: "title",
+          hint: "The title of the page",
+          widget: "string",
+          tagname: "h1",
+          required: true,
+        }
+      - {
+          label: "Body",
+          name: "body",
+          hint: "The text of the page",
+          widget: "markdown",
+          required: false,
+        }
