@@ -11,12 +11,12 @@ singings:
     singing_name: |
       Sacred Harp
       All-Day
-    singing_venue_details: |
-    St Francis Church Hall
-    Cleveland Gardens
-    High Heaton
-    Newcastle
-    NE7 7QH
+    singing_venue_details: >-
+      St Francis Church Hall
+      Cleveland Gardens
+      High Heaton
+      Newcastle
+      NE7 7QH
   - singing_date_time: Sunday 4 June 2023 – 10.30am to 3.30pm
     singing_description: >-
       Come and sing more shapenote music from [the Shenandoah Harmony](http://www.shenandoahharmony.com)! Registration from 10am.
@@ -26,10 +26,10 @@ singings:
       Shenandoah Harmony
       All-Day
     singing_venue_details: |-
-    Side By Side Arts
-    Dunsmuir Grove
-    Gateshead
-    NE8 4QL
+      Side By Side Arts
+      Dunsmuir Grove
+      Gateshead
+      NE8 4QL
 ---
 Loaner books will be provided on both days. Please bring food for a shared lunch.
 
