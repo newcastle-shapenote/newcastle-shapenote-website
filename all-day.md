@@ -11,7 +11,7 @@ singings:
     singing_name: |
       Sacred Harp
       All-Day
-    singing_venue_details: >-
+    singing_venue_details: |-
       St Francis Church Hall
       Cleveland Gardens
       High Heaton
