@@ -1,12 +1,12 @@
 ---
 layout: singing_page
-title: Newcastle Sacred Harp & Shenandoah Harmony Double All-Day 2022
+title: Newcastle Sacred Harp & Shenandoah Harmony Double All-Day 2023
 singing_tagline: Join us for two days of shapenote singing on 3 and 4 June 2023
 singings:
   - singing_date_time: Saturday 3 June 2023 – 10.30am to 3.30pm
     singing_description: >-
       Come to a day of full-voiced harmony singing from [the Sacred Harp](http://originalsacredharp.com)! Registration from 10am.
-    singing_google_maps_image: ""
+    singing_google_maps_image: unused
     singing_google_maps_link: https://goo.gl/maps/8n1T2N1HdJHbHhNR8
     singing_name: |
       Sacred Harp
@@ -20,7 +20,7 @@ singings:
   - singing_date_time: Sunday 4 June 2023 – 10.30am to 3.30pm
     singing_description: >-
       Come and sing more shapenote music from [the Shenandoah Harmony](http://www.shenandoahharmony.com)! Registration from 10am.
-    singing_google_maps_image: ""
+    singing_google_maps_image: unused
     singing_google_maps_link: https://goo.gl/maps/ToZ4Ta76jXgPJqq67
     singing_name: |
       Shenandoah Harmony
